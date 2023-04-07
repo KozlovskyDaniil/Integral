@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>ИНТЕГРАЛ</title>
+    <link rel="icon" href="./images/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="fon">
+            <div class="menu"></div>
+            <div class="title-box">
+                <div class="title">ВЫЧИСЛЕНИЕ ОПРЕДЕЛЁННОГО ИНТЕГРАЛА</div>
+            </div>
+            <div class="menu"></div>
+            <div class="box">
+                <input type="text" id="b" class="size-a-b b-i" placeholder="b">
+                <br>
+                <input type="text" id="f" placeholder="f(x)" class="f">
+                <div class="eq">
+                    <button onclick="integral()" class="onc"><b class="eq-b">=</b></button>
+                    
+                    <input type="text" id="answer" class="ans">
+                </div>
+                <br>
+                <input type="text" id="a" class="size-a-b a-i" placeholder="a">
+            </div>
+            <div class="menu"></div>
+            <div class="box-math">
+                <div class="text-math">
+                    <div class="title-math">СПИСОК МАТЕМАТИЧЕСКИХ ФУНКЦИЙ И КОНСТАНТ:</div>
+                    <ul>
+                        <li><code>PI</code> — число π</li>
+                        <li><code>E</code> — число e</li>
+                        <li><code>abs(x)</code> — абсолютное значение числа x</li>
+                        <li><code>x**n</code> — число x в степени n</li>
+                        <li><code>pow(x,n)</code> — число x в степени n</li>
+                        <li><code>sqrt(x)</code> — квадратный корень из числа x</li>
+                        <li><code>cbrt(x)</code> — кубический корень из числа x</li>
+                        <li><code>sin(x)</code> — синус числа x</li>
+                        <li><code>cos(x)</code> — косинус числа x</li>
+                        <li><code>tan(x)</code> — тангенс числа x</li>
+                        <li><code>asin(x)</code> — арксинус числа x</li>
+                        <li><code>acos(x)</code> — арккосинус числа x</li>
+                        <li><code>atan(x)</code> — арктангенс числа x</li>
+                        <li><code>sinh(x)</code> — гиперболический синус числа x</li>
+                        <li><code>cosh(x)</code> — гиперболический косинус числа x</li>
+                        <li><code>tanh(x)</code> — гиперболический тангенс числа x</li>
+                        <li><code>exp(x)</code> — число e в степени x</li>
+                        <li><code>log(x)</code> — натуральный логарифм числа x</li>
+                        <li><code>log2(x)</code> — двоичный логарифм числа x</li>
+                        <li><code>log10(x)</code> — десятичный логарифм числа x</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="text-footer">Copyright © 2023 Kozlovsky Daniil<a href="mailto:kozlovsky.daniil@icloud.com">Связь с автором</a></p>
+        </footer>
+    </div>
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>

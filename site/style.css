@@ -1,0 +1,280 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrap 
+{
+    margin: 0px auto;
+}
+
+.fon 
+{
+    background-image: url(./images/transparent.png);
+    width: 100%;
+    height: 1700px;
+    background-repeat: inherit;
+    background-position: center;
+}
+
+.menu 
+{
+    height: 50px;
+}
+
+.title 
+{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.title-box 
+{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: white;
+    height: 80px;
+    width: 800px;
+}
+
+.box 
+{
+    margin: 0 auto;
+    border-radius: 40px;
+    background-image: url(./images/integral.jpg);
+    background-size: 700px 500px;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 500px;
+}
+
+
+
+.size-a-b 
+{
+    width: 45px;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 10px;
+    text-align: center;
+}
+
+.img 
+{
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.f 
+{
+    text-align: center;
+    font-size: 18px;
+    margin: 135px 0 0 130px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px grey solid;
+    height: 30px;
+}
+
+.a-i 
+{
+    text-align: center;
+    font-size: 18px;
+    margin: 85px 0 0 50px;
+    border-radius: 20px;
+    border: 1px grey solid;
+    
+}
+
+.b-i {
+    text-align: center;
+    font-size: 18px;
+    margin: 75px 0 0 110px;
+    border-radius: 20px;
+    border: 1px grey solid;
+}
+
+.eq 
+{
+    font-size: 18px;
+    margin: -37px 0 0 475px;
+}
+
+.onc 
+{
+    text-align: center;
+    font-size: 18px;
+    margin-left: -20px;
+    border-radius: 20px;
+    border: 1px grey solid;
+    color: black;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+
+
+
+.onc:hover
+{
+    cursor: pointer;
+}
+
+.ans 
+{
+    text-align: center;
+    font-size: 18px;
+    width: 130px;
+    border-radius: 20px;
+    border: 1px grey solid;
+    height: 30px;
+}
+
+.box-math 
+{
+    margin: 0 auto;
+    border-radius: 40px;
+    background-color: white;
+    background-size: 700px 500px;
+    width: 700px;
+    height: 800px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li 
+{
+
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+ul 
+{
+    margin-left: 150px;
+}
+
+.title-math 
+{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+code 
+{
+    border: 1px solid black;
+}
+
+footer 
+{
+    width: 100%;
+    height: 70px;
+    margin-left: 0px;
+    margin-top: -85px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.text-footer 
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 0px;
+    vertical-align: middle;
+    line-height: 70px;
+    text-align: center;
+}
+
+a 
+{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 30%;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px)
+{
+    .fon 
+    {
+        height: 1850px;
+    }
+
+    .title 
+    {
+        font-size: 35px;
+    }
+    
+    .title-box 
+    {
+        margin-top: 100px;
+        line-height: 100px;
+        text-align: center;
+        border-radius: 25px;
+        background-color: white;
+        height: 100px;
+        width: 800px;
+    }
+
+    .title-math 
+    {
+        line-height: 70px;
+        font-size: 25px;
+    }
+
+    li 
+    {
+        font-size: 22px;
+    }
+
+    ul 
+    {
+        margin-left: 100px;
+    }
+
+    .box-math 
+    {
+        width: 700px;
+        height: 850px;
+    }
+
+    footer 
+    {
+        margin-top: -84px;
+    }
+    
+    .text-footer 
+    {
+        font-size: 16px;
+    }
+  
+    .eq-b
+    {
+        margin-left: -5px;
+    }
+}
